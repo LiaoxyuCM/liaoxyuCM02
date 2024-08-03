@@ -15,11 +15,10 @@
       a = Number(document.getElementById("numbers").value) + 1;
       document.getElementById("numbers").value = String(a);
     }
-    function clear(){
-      document.getElementById("numbers").value = String(0);
-    }
   </script>
   <input type="text" value="0" id="numbers" disabled>
   <button onclick="add()">增加</button>
-  <button onclick="clear()">清除</button>
+  <a href="">
+    <input type="button" value="清除">
+  </a>
 </html>
