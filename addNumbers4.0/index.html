@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>addNumbers4.0</title>
+  </head>
+  <style>
+    body{
+      background-color: #b0d5df;
+    }
+  </style>
+  <script>
+    function add(){
+      a = Number(document.getElementsById("numbers").value) + 1;
+      document.getElementsById("numbers").value = String(a);
+    }
+  </script>
+  <input type="text" value="0" id="numbers" disabled>
+  <button onclick="add()">增加</button>
+</html>
